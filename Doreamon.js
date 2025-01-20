@@ -1,7 +1,7 @@
 class Doreamon {
     constructor(game) {
         this.game = game;
-        this.animator = new Animator(ASSET_MANAGER.getAsset("./doreamon.png"), 0, 0, 150, 150, 3, 0.4);
+        this.animator = new Animator(ASSET_MANAGER.getAsset("./doreamon.png"), 0, 0, 150, 150, 3, 0.3);
         this.x = 0;
         this.y = 0;
         this.speed = 25;
